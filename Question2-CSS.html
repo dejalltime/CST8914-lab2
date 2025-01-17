@@ -4,13 +4,21 @@
    <title>Question 2 - CSS</title>
    <style>
     .mainsection a {
-      text-decoration: none;
-      color: #414040;
+      text-decoration: underline;
+      color: rgb(68, 68, 184);
       outline: none;
     }
 
-    
-    </style>
+    .mainsection a:hover {
+        text-decoration-color: #ff6600;
+    }
+
+    .mainsection a:focus {
+        outline: 2px solid #f8dcc9;
+    }
+
+   
+  </style>
 </head>
 <body>
 <div class="mainsection">
